@@ -148,7 +148,7 @@ while True:
     time.sleep(1)
 
 
-write_csv(sc_seen, "sc_to_lbxd_seen.csv")
-write_csv(sc_watchlist, "sc_to_lbxd_watchlist.csv")
+write_csv(sc_seen, "sc_seen.csv")
+write_csv(sc_watchlist, "sc_watchlist.csv")
 
 print("That's all folks!")
