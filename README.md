@@ -1,7 +1,6 @@
 # What is it
 
 Very simple to script export your [sens-critique](https://senscritique.com/) collection (history and watch list) to csv files.
-
 I personnaly imported it on my [letterboxd account](https://letterboxd.com/mattchete) but do whatever you want with it.
 
 # Init
