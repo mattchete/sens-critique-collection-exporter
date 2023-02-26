@@ -15,7 +15,7 @@ load_dotenv()
 SENSCRITIQUE_ENDPOINT = "https://apollo.senscritique.com/"
 SENSCRITIQUE_AUTHORIZATION_KEY = os.environ.get("SENSCRITIQUE_AUTHORIZATION_KEY")
 try:
-    with open("sc_post_data.json") as json_file:
+    with open("config/sc_post_data.json") as json_file:
         SC_POST_BODY = json.load(json_file)
 except Exception as e:
     print("sc_post_data.json not found or invalid", e)
